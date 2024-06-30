@@ -1,0 +1,494 @@
+body {
+  font-family: Inter, sans-serif;
+  background-color: #e2e7ea;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  color: #5b6d79;
+}
+
+header {
+  position: relative;
+}
+
+header > .waves {
+  width: 100%;
+  z-index: 0;
+}
+
+header > .logo {
+  width: 20%;
+  position: absolute;
+  right: 5%;
+  top: 20px;
+  z-index: 10;
+}
+
+/* Main - Greeting */
+main > .greeting,
+main > .quotes {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+.greeting > h1 {
+  font-size: 5em;
+}
+
+.greeting > h1 > span {
+  color: #fff;
+  background-color: #ec220c;
+}
+
+.greeting > p {
+  font-size: 3em;
+}
+
+/* Main - Quotes */
+
+.quotes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quotes > .image-wrapper {
+  width: 60%;
+}
+
+.quotes > .image-wrapper > img {
+  width: 100%;
+  z-index: 2;
+}
+
+.quotes > .text-wrapper {
+  width: 40%;
+  font-size: 2.75em;
+  padding: 0 5%;
+}
+
+.quotes > .text-wrapper > p {
+  text-align: center;
+}
+
+.quotes > .text-wrapper > div:first-child img {
+  width: 10%;
+}
+.quotes > .text-wrapper > div:last-child img {
+  width: 10%;
+}
+
+.quotes > .text-wrapper > div:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quotes > .text-wrapper > div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 5em;
+}
+
+/* Main achievement */
+
+.achievement {
+  background-image: url("/assets/plat.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20vh;
+}
+
+/* .achievement > img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+} */
+
+.achievement > .header-text {
+  padding-top: 55vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.achievement h2 {
+  font-size: 5em;
+  margin-bottom: 30px;
+}
+
+.achievement p {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+.achievement p > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievement p > span > img {
+  width: 25%;
+  margin: 0 20px;
+}
+
+.achievement .card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 7%;
+  margin-top: 5vh;
+}
+
+.achievement .card-wrapper .card1,
+.achievement .card-wrapper .card2,
+.achievement .card-wrapper .card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.achievement .card-wrapper img {
+  width: 80%;
+}
+
+.achievement .card-wrapper h3 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+/* Main - Share Social media */
+
+.socialmedia {
+  background-color: #5b6d79;
+  padding: 7.5vh 0;
+}
+
+.socialmedia > h2 {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 0;
+  text-align: center;
+}
+
+.socialmedia > .card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 2.5%;
+}
+
+.socialmedia img {
+  width: 5%;
+}
+
+/* Main - Advice */
+
+.advice {
+  background-color: #ec220c;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-bottom: 5%;
+}
+
+.advice > .header-text {
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.advice .header-text > h2 {
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10vh;
+}
+
+.advice .header-text > p {
+  font-size: 2em;
+}
+
+.advice > .card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* .advice .card-wrapper .card1,
+.advice .card-wrapper .card2,
+.advice .card-wrapper .card3,
+.advice .card-wrapper .card4 { */
+.advice .card-wrapper > div {
+  width: 38%;
+  margin: 2%;
+  padding: 2%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.advice .card-wrapper .card1 > div,
+.advice .card-wrapper .card2 > div,
+.advice .card-wrapper .card3 > div,
+.advice .card-wrapper .card4 > div {
+  color: #5b6d79;
+  margin-left: 5%;
+}
+
+.advice .card-wrapper img {
+  width: 20%;
+}
+
+.advice .card-wrapper .card3 > img {
+  width: 20%;
+  height: 100px;
+}
+
+.advice .card-wrapper button {
+  border: 0;
+  padding: 2% 4%;
+  font-size: 1.5em;
+  background-color: #ec220c;
+  border-radius: 15px;
+  color: #fff;
+}
+
+/* Footer */
+
+footer {
+  background-color: #e2e7ea;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-bottom: 5%;
+}
+
+footer > .header-text {
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+}
+
+footer .header-text > h2 {
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10vh;
+}
+
+footer .card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .card-wrapper > div {
+  width: 30%;
+  /* margin: 1.5%; */
+  color: #5b6d79;
+  text-align: center;
+}
+
+footer .card-wrapper h3 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+footer .card-wrapper p {
+  font-size: 2em;
+}
+
+footer > .footer-text {
+  color: #5b6d79;
+  opacity: 80%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+footer .footer-text > h2 {
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10vh;
+  font-weight: 500;
+}
+
+footer .footer-text img {
+  width: 25%;
+  margin-top: 10vh;
+}
+
+@media only screen and (max-width: 768px) {
+  header > .waves {
+    /* width: 100%; */
+    height: 20vh;
+  }
+
+  header > .logo {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    /* right: 5%; */
+    top: 20px;
+    z-index: 10;
+  }
+
+  .greeting > h1 {
+    font-size: 2.75em;
+    margin-bottom: 0;
+  }
+
+  .greeting > p {
+    font-size: 1.5em;
+  }
+
+  .quotes {
+    flex-direction: column;
+    margin: 10vh 0;
+  }
+
+  .quotes > .image-wrapper {
+    width: 100%;
+  }
+
+  .quotes > .text-wrapper {
+    margin-top: 5vh;
+    width: 100%;
+    font-size: 1.25em;
+    padding: 0 5%;
+  }
+
+  .achievement {
+    /* background-image: url("/assets/plat.svg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    padding-bottom: 20vh;
+  }
+
+  .achievement > .header-text {
+    padding-top: 15vh;
+  }
+
+  .achievement h2 {
+    font-size: 2em;
+    /* margin-bottom: 30px; */
+  }
+
+  .achievement p {
+    font-size: 1em;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .achievement p > span > img {
+    width: 15%;
+    margin: 0 20px;
+  }
+
+  .achievement .card-wrapper {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 7%;
+    margin-top: 5vh; */
+    flex-direction: column;
+  }
+
+  .achievement .card-wrapper img {
+    width: 50%;
+  }
+
+  .achievement .card-wrapper h3 {
+    font-size: 1.5em;
+    margin-top: 1vh;
+  }
+
+  .socialmedia > h2 {
+    font-size: 1.25em;
+  }
+
+  .socialmedia img {
+    width: 10%;
+  }
+
+  .advice .header-text > h2 {
+    font-size: 2em;
+    padding-top: 10vh;
+  }
+
+  .advice .header-text > p {
+    font-size: 1.5em;
+  }
+
+  .advice .card-wrapper > div {
+    width: 96%;
+    margin: 2%;
+    padding: 4%;
+  }
+
+  .advice .card-wrapper img {
+    width: 30%;
+  }
+
+  .advice .card-wrapper .card3 > img {
+    width: 30%;
+    height: 70px;
+  }
+
+  .advice .card-wrapper button {
+    padding: 2% 4%;
+    font-size: 1em;
+  }
+
+  footer .header-text > h2 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10vh;
+  }
+
+  footer .card-wrapper {
+    margin-top: 10vh;
+    flex-direction: column;
+  }
+
+  footer .card-wrapper > div {
+    width: 100%;
+  }
+
+  footer .card-wrapper h3 {
+    font-size: 1.75em;
+    margin-top: 0;
+  }
+
+  footer .card-wrapper p {
+    font-size: 1.25em;
+  }
+
+  footer .card-wrapper img {
+    width: 75%;
+  }
+
+  footer .footer-text > h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10vh;
+    font-weight: 500;
+  }
+
+  footer .footer-text img {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Add specific styles for iPad here */
+}
